@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+
+public class Multi {
+
+
+public static void main(String[] args) {
+int a, b, multiplicacion;
+
+a=Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero"));
+b=Integer.parseInt(JOptionPane.showInputDialog("ingrese el segundo numero"));
+
+multiplicacion=a*b;
+
+JOptionPane.showMessageDialog(null, "la multiplicacion de los 2 numeros es"+ multiplicacion, null, multiplicacion);
+}
+
+}
