@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+
+public class Multiplicacion {
+
+
+public static void main(String[] args) {
+int a, b, c, multiplicacion;
+
+a=Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero"));
+b=Integer.parseInt(JOptionPane.showInputDialog("ingrese el segundo numero"));
+c=Integer.parseInt(JOptionPane.showInputDialog("ingrese el tercer numero"));
+
+
+division=a*b+c;
+
+JOptionPane.showMessageDialog(null, "la multiplicacion de los 2 numeros y la suma del siguiente numero es"+ division);
+}
+
+}
